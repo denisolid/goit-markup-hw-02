@@ -49,6 +49,7 @@ body {
 .address .nav-address .link{
     text-decoration: none;
     color: #434455;
+    letter-spacing: 0.02em;
     
 
 }
@@ -58,11 +59,11 @@ body {
     
 }
 
-.section1{
+.section-1{
     background-color: #2E2F42;
 }
 
-.section1 .header1{
+.section-1 .header-1{
     color: var(--WHITE, #FFF);
     font-weight: 700;
     line-height: 1.07143;
@@ -70,7 +71,7 @@ body {
     font-size: 56px;
 }
 
-.section1 .button1{
+.section-1 .button-1{
     background-color: var(--IRIS, #4D5AE5);
     font-weight: 500;
     color: #FFF;
@@ -79,7 +80,7 @@ body {
     
     
 }
-.section1 .button1:hover{
+.section-1 .button-1:hover{
     cursor: pointer;
     background-color: var(--OCEAN, #404BBF);
     
