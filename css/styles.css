@@ -39,21 +39,21 @@ body {
     
 }
 
-.nav-address{
+.address .nav-address{
     list-style-type: none;
 }
-address{
+.address{
     font-style: normal;
 }
 
-.nav-address .link{
+.address .nav-address .link{
     text-decoration: none;
     color: #434455;
     
 
 }
 
-.nav-address .link:hover, .nav-address .link:focus{
+.address .nav-address .link:hover, .nav-address .link:focus{
     color: #404BBF;
     
 }
