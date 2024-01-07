@@ -84,8 +84,12 @@ body {
     
     
 }
-.section-first .button-first:hover .button-first:focus{
-    background-color:  #404BBF; 
+.section-first .button-first:hover{
+    background-color: #404BBF; 
+}
+
+.section-first .button-first:focus{
+    background-color: #404BBF; 
 }
 
 
