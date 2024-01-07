@@ -59,11 +59,11 @@ body {
     
 }
 
-.section-1{
+.section1{
     background-color: #2E2F42;
 }
 
-.section-1 .header-1{
+.section1 .header1{
     color: var(--WHITE, #FFF);
     font-weight: 700;
     line-height: 1.07143;
@@ -71,7 +71,7 @@ body {
     font-size: 56px;
 }
 
-.section-1 .button-1{
+.section1 .button1{
     background-color: var(--IRIS, #4D5AE5);
     font-weight: 500;
     color: #FFF;
@@ -80,7 +80,7 @@ body {
     
     
 }
-.section-1 .button-1:hover{
+.section1 .button1:hover{
     cursor: pointer;
     background-color: var(--OCEAN, #404BBF);
     
