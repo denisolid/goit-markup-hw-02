@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif, "Raleway",  sans-serif;
+    font-family: "Roboto", sans-serif;
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 16px;
     background-color: #FFF;
@@ -74,6 +74,7 @@ address{
     background-color: var(--IRIS, #4D5AE5);
     font-weight: 500;
     color: #FFF;
+    cursor: pointer;
 
     
     
