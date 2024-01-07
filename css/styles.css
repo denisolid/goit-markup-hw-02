@@ -7,7 +7,7 @@ body {
   }
 
 .title-link{
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.666; /* 116.667% */
@@ -144,7 +144,7 @@ footer{
 }
 
 .title-link2{
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.666; /* 116.667% */
