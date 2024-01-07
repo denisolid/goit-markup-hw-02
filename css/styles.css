@@ -1,0 +1,154 @@
+body {
+    font-family: "Roboto", "Raleway",  sans-serif;
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 16px;
+    background-color: #FFF;
+    line-height: 1.5;
+  }
+
+.title-link{
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.666; /* 116.667% */
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+.web-link{
+    color: #4D5AE5;
+    
+}
+
+.page-nav{
+    list-style-type: none;
+}
+.page-nav .link{
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #2E2F42;
+    
+}
+
+.page-nav .link:hover, .page-nav .link:focus{
+    color: #404BBF;
+    
+}
+
+.nav-address{
+    list-style-type: none;
+}
+
+.nav-address .link{
+    text-decoration: none;
+    color: #434455;
+    font-style: normal;
+
+}
+
+.nav-address .link:hover, .nav-address .link:focus{
+    color: #404BBF;
+    
+}
+
+.section1{
+    background-color: #2E2F42;
+}
+
+.section1 .header1{
+    color: var(--WHITE, #FFF);
+    font-weight: 700;
+    line-height: 1.07143;
+    text-align: center;
+    font-size: 56px;
+}
+
+.section1 .button1{
+    background-color: var(--IRIS, #4D5AE5);
+    font-weight: 500;
+    color: #FFF;
+    left: 50%;
+    
+    
+}
+.section1 .button1:hover{
+    cursor: pointer;
+    background-color: var(--OCEAN, #404BBF);
+    
+}
+
+.section2 .features-list{
+    list-style-type: none;
+}
+
+.section2 .features-list .title{
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 20px;
+}
+
+.section2 .features-list .text{
+    color: #434455;
+}
+
+.section3 .title3{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1111;
+    text-align: center;
+}
+.section3 .team-list{
+    list-style-type: none;
+}
+
+.section3 .team-list .name{
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 20px;
+}
+
+.section3 .team-list .text{
+    color: #434455;
+}
+
+.section4 .title-portfolio{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1111;
+    text-align: center;
+}
+
+.section4 .portfolio-list{
+    list-style-type: none;
+}
+
+.section4 .portfolio-list .item-portfolio{
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 20px;
+}
+
+.section4 .portfolio-list .text{
+    color: #434455;
+}
+
+footer{
+    background-color: #2E2F42;
+}
+
+.text-footer{
+    color: #F4F4FD;
+    
+}
+
+.title-link2{
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.666; /* 116.667% */
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #F4F4FD;
+}
