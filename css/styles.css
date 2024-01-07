@@ -61,14 +61,16 @@ body {
 
 .section-first{
     background-color: #2E2F42;
- }
+}
 
 .section-first .header-first{
     color: var(--WHITE, #FFF);
     font-weight: 700;
-    line-height: 1.07143;
+    line-height: 1.07;
     text-align: center;
     font-size: 56px;
+    letter-spacing: 0.02em;
+
 }
 
 .section-first .button-first{
@@ -76,69 +78,96 @@ body {
     font-weight: 500;
     color: #FFF;
     cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 
     
     
 }
-.section-first .button-first:hover{
+.section-first .button-first:hover .button-first:focus{
     cursor: pointer;
     background-color: var(--OCEAN, #404BBF);
     
 }
 
-.section2 .features-list{
+
+
+.section-second .features-list{
     list-style-type: none;
 }
 
-.section2 .features-list .title{
+.section-second .features-list .title{
     font-weight: 500;
     line-height: 1.2;
     font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.section2 .features-list .text{
+.section-second .features-list .text{
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
-.section3 .title3{
+.section-third{
+    background-color: #F4F4FD 
+}
+.section-third .title-third{
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1111;
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
-.section3 .team-list{
+.section-third .team-list{
     list-style-type: none;
+
 }
 
-.section3 .team-list .name{
+.section-third .team-list .li-third{
+    background-color: #FFFFFF;
+}
+
+.section-third .team-list .li-third .name{
     font-weight: 500;
     line-height: 1.2;
     font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.section3 .team-list .text{
+.section-third .team-list .li-third .text{
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
-.section4 .title-portfolio{
+.section-fourth .title-portfolio{
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1111;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
     text-align: center;
 }
 
-.section4 .portfolio-list{
+.section-fourth .portfolio-list{
     list-style-type: none;
 }
 
-.section4 .portfolio-list .item-portfolio{
+.section-fourth .portfolio-list .item-portfolio{
     font-weight: 500;
     line-height: 1.2;
     font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.section4 .portfolio-list .text{
+.section-fourth .portfolio-list .text{
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
 footer{
@@ -147,10 +176,11 @@ footer{
 
 .text-footer{
     color: #F4F4FD;
+    letter-spacing: 0.02em;
     
 }
 
-.title-link2{
+.title-link-two{
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -160,7 +190,7 @@ footer{
     color: #4D5AE5;
     letter-spacing: 0.03em;
 }
-.studio-link2{
+.studio-link-two{
     color: #F4F4FD;
     
 }
