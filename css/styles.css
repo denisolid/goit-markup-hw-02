@@ -144,6 +144,7 @@ body {
 .section-third .team-list .li-third .text{
     color: #434455;
     letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 .section-fourth .title-portfolio{
@@ -171,6 +172,7 @@ body {
 .section-fourth .portfolio-list .text{
     color: #434455;
     letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 .footer{
@@ -180,7 +182,7 @@ body {
 .footer .text-footer{
     color: #F4F4FD;
     letter-spacing: 0.02em;
-    line-height: 1.5;
+    c
     
 }
 
